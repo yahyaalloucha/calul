@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+@font-face {
+  font-family: "calci-font";
+  src: url("calci.ttf");
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: -5px;
+  color: crimson;
+  padding: 12px;
+  background-color: black;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 20px;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/736x/b2/c3/b3/b2c3b35ca6290a0893175241fa01dd03.jpg");
+  font-family: "Orbitron", sans-serif;
+}
+
+#container {
+  width: 400px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: rgba(143, 114, 75, 0.431);
+  padding: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 10px;
+}
+
+#display {
+  width: 90%;
+  border-style: solid;
+  height: 20px;
+  background-color: whitesmoke;
+  border-width: 5px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.button9 {
+  width: 89px;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: black;
+  box-shadow: 0px 5px 8px black;
+  outline: none;
+  color: whitesmoke;
+}
+
+.button9:hover {
+  color: rgba(9, 46, 255, 0.959);
+  transform: scale(0.9);
+}
+
+#del {
+  width: 110px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  border-radius: 50px;
+  background-color: black;
+  box-shadow: 0px 4px 8px black;
+  outline: none;
+}
+
+#del:hover {
+  color: red;
+  transform: scale(0.9);
+}
+
+#clear {
+  width: 89px;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: black;
+  box-shadow: 0px 5px 8px black;
+  outline: none;
+  color: whitesmoke;
+}
+
+#clear:hover {
+  color: red;
+  transform: scale(0.9);
+}
+
+#equal {
+  width: 95%;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: black;
+  box-shadow: 0px 4px 8px black;
+  outline: none;
+}
+
+#equal:hover {
+  color: rgb(43, 255, 0);
+  transform: scale(0.9);
+}
